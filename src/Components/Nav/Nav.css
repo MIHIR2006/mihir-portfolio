@@ -1,0 +1,87 @@
+#navbar {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #navbar.bg-active {
+    background: #181d23;
+  }
+  
+  #navbar .nav-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    padding: 0 2rem;
+  }
+  
+  #navbar .brand {
+    font-size: 1.6rem;
+    color: #fafafa;
+    cursor: default;
+  }
+  
+  /***** Menu Button *****/
+  .menu-button {
+    position: relative;
+    height: 22px;
+    width: 30px;
+    outline: none;
+  }
+  
+  .menu-button span,
+  .menu-button span::before,
+  .menu-button span::after {
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 3px;
+    background: #fafafa;
+    transition: 500ms cubic-bezier(0.77, 0, 0.175, 1);
+  }
+  
+  .menu-button span {
+    position: relative;
+    display: block;
+    top: 50%;
+    transform: translate(0,-50%);
+  }
+  
+  .menu-button span::before {
+    top: -8px;
+  }
+  
+  .menu-button span::after {
+    top: 8px;
+  }
+  
+  .menu-button:hover > span,
+  .menu-button:hover > span::before,
+  .menu-button:hover > span::after {
+    background: #f300b4;
+  }
+  
+  .menu-button.active > span  {
+    background: transparent;
+  }
+  
+  .menu-button.active > span::before  {
+    transform: rotate(-225deg);
+    top: 0px;
+  }
+  
+  .menu-button.active > span::after  {
+    transform: rotate(225deg);
+    top: 0px;
+  }
+  
+  @media only screen and (max-width: 849px) {
+    #navbar {
+      background: #181d23aa;
+    }
+  }
