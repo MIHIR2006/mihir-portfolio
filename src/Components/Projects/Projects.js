@@ -3,6 +3,7 @@ import Project from './Project';
 import './Projects.css';
 import Rentalhub from './Images/Rental hub .jpg';
 import FreshFruitHub  from './Images/Fresh Fruit Hub .png';
+import Rentify  from './Images/Rentify.png';
 
 const Projects = props => {
   return (
@@ -20,6 +21,8 @@ const Projects = props => {
             title="Car selling Website "
             img={Rentalhub}
             tech="js css react node"
+            link="https://fresh-fruit-hub.onrender.com/"
+            repo="https://github.com/MIHIR2006/mihir-portfolio"
           >
             <small>
               Built using Node, Express, MongoDB, CSS + Bulma, React.js and React Router.
@@ -31,24 +34,27 @@ const Projects = props => {
 
           
           <Project
-            title="FreshFruitHub"
+            title="FreshFruitHub."
             img={FreshFruitHub}
             tech="js css react node"
+            link="https://fresh-fruit-hub.onrender.com/"
+            repo="https://github.com/MIHIR2006/Fruit-hub"
           >
             <small>
               Built using Node, Express, MongoDB, CSS + Bulma, React.js and React Router.
             </small>
             <p>
-            DriveDreams is more than just a website; it's a digital gateway to automotive enthusiasts' dreams. This project was born out of my love for both technology and cars, and I channeled that passion into every aspect of its creation.
+              This is a full-stack website that I made which lets the users read and post anonymous
+              messages and replies.
             </p>
           </Project>
-
+          
           <Project
-            title="Anonymous Message Board."
-            img={FreshFruitHub}
+            title="FreshFruitHub."
+            img={Rentify}
             tech="js css react node"
-            link="https://fresh-fruit-hub.onrender.com/"
-            repo="https://github.com/MIHIR2006/Fruit-hub"
+            link="https://rentify-1iq0.onrender.com"
+            repo="https://github.com/MIHIR2006/Rentify"
           >
             <small>
               Built using Node, Express, MongoDB, CSS + Bulma, React.js and React Router.
