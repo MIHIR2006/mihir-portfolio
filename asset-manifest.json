@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/mihir-portfolio/static/css/main.b9b43f36.css",
-    "main.js": "/mihir-portfolio/static/js/main.eb9652a6.js",
+    "main.js": "/mihir-portfolio/static/js/main.9601b946.js",
     "static/js/787.b65f0fbb.chunk.js": "/mihir-portfolio/static/js/787.b65f0fbb.chunk.js",
+    "static/media/Rentify.png": "/mihir-portfolio/static/media/Rentify.50af3062bd48f585881f.png",
     "static/media/Fresh Fruit Hub .png": "/mihir-portfolio/static/media/Fresh Fruit Hub .346741b0568926cf1932.png",
     "static/media/Rental hub .jpg": "/mihir-portfolio/static/media/Rental hub .158d9cbe3a20b9a23c72.jpg",
     "static/media/Stars.svg": "/mihir-portfolio/static/media/Stars.8a0c1e35dbdee9d1871f.svg",
@@ -12,11 +13,11 @@
     "index.html": "/mihir-portfolio/index.html",
     "static/media/envelope.svg": "/mihir-portfolio/static/media/envelope.2da9f9f0571e695cc384.svg",
     "main.b9b43f36.css.map": "/mihir-portfolio/static/css/main.b9b43f36.css.map",
-    "main.eb9652a6.js.map": "/mihir-portfolio/static/js/main.eb9652a6.js.map",
+    "main.9601b946.js.map": "/mihir-portfolio/static/js/main.9601b946.js.map",
     "787.b65f0fbb.chunk.js.map": "/mihir-portfolio/static/js/787.b65f0fbb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b9b43f36.css",
-    "static/js/main.eb9652a6.js"
+    "static/js/main.9601b946.js"
   ]
 }
