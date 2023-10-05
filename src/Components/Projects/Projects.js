@@ -17,15 +17,33 @@ const Projects = props => {
           </p>
         </div>
         <div className="projects-wrapper">
+         
+
+          
           <Project
-            title="Car selling Website "
+            title="FreshFruitHub"
+            img={FreshFruitHub}
+            tech="js css react node"
+            link="https://fresh-fruit-hub.onrender.com/"
+            repo="https://github.com/MIHIR2006/Fruit-hub"
+          >
+            <small>
+              Built using React.js and React Router.
+            </small>
+            <p>
+            "Fresh Fruit Hub, a dynamic React-based single-page application, invites you to savor the essence of nature's bounty.As the developer, I've fused aesthetics with functionality to create a modern and engaging virtual orchard. 
+            </p>
+          </Project>
+
+          <Project
+            title="Car selling Website"
             img={Rentalhub}
             tech="js css react node"
             link="https://fresh-fruit-hub.onrender.com/"
             repo="https://github.com/MIHIR2006/mihir-portfolio"
           >
             <small>
-              Built using Node, Express, MongoDB, CSS + Bulma, React.js and React Router.
+              Built using Node React.js and React Router.
             </small>
             <p>
             DriveDreams is more than just a website; it's a digital gateway to automotive enthusiasts' dreams. This project was born out of my love for both technology and cars, and I channeled that passion into every aspect of its creation.
@@ -34,34 +52,17 @@ const Projects = props => {
 
           
           <Project
-            title="FreshFruitHub."
-            img={FreshFruitHub}
-            tech="js css react node"
-            link="https://fresh-fruit-hub.onrender.com/"
-            repo="https://github.com/MIHIR2006/Fruit-hub"
-          >
-            <small>
-              Built using Node, Express, MongoDB, CSS + Bulma, React.js and React Router.
-            </small>
-            <p>
-              This is a full-stack website that I made which lets the users read and post anonymous
-              messages and replies.
-            </p>
-          </Project>
-          
-          <Project
-            title="FreshFruitHub."
+            title="Car Renting Website"
             img={Rentify}
-            tech="js css react node"
+            tech="js css react"
             link="https://rentify-1iq0.onrender.com"
             repo="https://github.com/MIHIR2006/Rentify"
           >
             <small>
-              Built using Node, Express, MongoDB, CSS + Bulma, React.js and React Router.
+              Built CSS + Bootstarp, React.js and React Router.
             </small>
             <p>
-              This is a full-stack website that I made which lets the users read and post anonymous
-              messages and replies.
+            Rentify, a sleek and efficient car renting website designed and developed as a single-page application using React. With Rentify, we've redefined the car rental experience, offering a seamless and user-friendly interface that ensures a hassle-free process from start to finish.
             </p>
           </Project>
           
