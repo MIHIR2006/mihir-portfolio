@@ -55,7 +55,7 @@ const Projects = props => {
             title="Car Renting Website"
             img={Rentify}
             tech="js css react"
-            link="https://rentify-1iq0.onrender.com"
+            link="https://rentify-navy.vercel.app"
             repo="https://github.com/MIHIR2006/Rentify"
           >
             <small>
