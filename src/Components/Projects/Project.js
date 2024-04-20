@@ -29,14 +29,7 @@ const Project = props => {
           {props.title}{' '}
         </div>
         {props.children}
-        <div className="buttons">
-          <a href={repo} target="_blank" rel="noopener noreferrer">
-            View source <i className="fas fa-external-link-alt" />
-          </a>
-          <a href={link} target="_blank" rel="noopener noreferrer">
-            Try it Live <i className="fas fa-external-link-alt" />
-          </a>
-        </div>
+       
       </div>
     </div>
   );
