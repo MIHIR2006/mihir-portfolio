@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mihir-portfolio/static/css/main.b9b43f36.css",
-    "main.js": "/mihir-portfolio/static/js/main.508079ab.js",
+    "main.css": "/mihir-portfolio/static/css/main.af7fe263.css",
+    "main.js": "/mihir-portfolio/static/js/main.d591ad46.js",
     "static/js/787.b65f0fbb.chunk.js": "/mihir-portfolio/static/js/787.b65f0fbb.chunk.js",
     "static/media/Rentify.png": "/mihir-portfolio/static/media/Rentify.50af3062bd48f585881f.png",
     "static/media/Fresh Fruit Hub .png": "/mihir-portfolio/static/media/Fresh Fruit Hub .346741b0568926cf1932.png",
@@ -12,12 +12,12 @@
     "static/media/Moon.svg": "/mihir-portfolio/static/media/Moon.b4f3fe5b459b519cfdb9.svg",
     "index.html": "/mihir-portfolio/index.html",
     "static/media/envelope.svg": "/mihir-portfolio/static/media/envelope.2da9f9f0571e695cc384.svg",
-    "main.b9b43f36.css.map": "/mihir-portfolio/static/css/main.b9b43f36.css.map",
-    "main.508079ab.js.map": "/mihir-portfolio/static/js/main.508079ab.js.map",
+    "main.af7fe263.css.map": "/mihir-portfolio/static/css/main.af7fe263.css.map",
+    "main.d591ad46.js.map": "/mihir-portfolio/static/js/main.d591ad46.js.map",
     "787.b65f0fbb.chunk.js.map": "/mihir-portfolio/static/js/787.b65f0fbb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9b43f36.css",
-    "static/js/main.508079ab.js"
+    "static/css/main.af7fe263.css",
+    "static/js/main.d591ad46.js"
   ]
 }
