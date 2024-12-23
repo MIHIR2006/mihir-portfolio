@@ -1,4 +1,3 @@
-![](https://komarev.com/ghpvc/?username=mihir2006)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
