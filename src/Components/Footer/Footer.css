@@ -18,6 +18,8 @@ footer {
     max-width: 1400px;
     align-items: center;
     justify-content: space-between;
+    position: fixed!important;
+    margin-top: 200px;
   }
   
   @media only screen and (max-width: 649px) {

@@ -48,6 +48,14 @@
     margin: 1rem 0;
     padding: 0;
   }
+  #about .separatorSkills {
+    background: #f300b4;
+    width: 50px;
+    height: 2px;
+    margin-top: 2px;
+    /* margin: 1rem 0; */
+    padding: 0;
+  }
   
   #about .subtitle {
     font-size: 1.6rem;
@@ -72,8 +80,41 @@
     background: #ffffffaa;
     padding: 2rem;
     text-align: justify;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
   }
+
+  #about .descTechS {
+    grid-column-end: span 2;
+    width: 100%;
+    background: #ffffffaa;
+    padding: 2rem;
+    text-align: justify;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+  }
+
+
+.SkillsMargin{
+  margin-top: 12px;
+}
+
+  #about .TechContainer {
+    display: flex; /* Enables Flexbox */
+    justify-content: space-evenly; /* Distributes items horizontally with equal spacing */
+    align-items: center; /* Ensures items are vertically aligned (if needed) */
+    /* padding: 0px; */
+    box-sizing: border-box; /* Includes padding in the total width */
+}
+
+.Techs {
+  width: 50px; /* Set a fixed size for icons (adjust as needed) */
+  height: auto; /* Maintains the aspect ratio */
+}
   
+
   @media only screen and (max-width: 1149px) {
     #about article {
       grid-template-columns: 1fr;
@@ -85,6 +126,7 @@
   
     #about .desc {
       grid-column-end: -1;
+      margin-top: 10px;
     }
   }
   @media only screen and (max-width: 949px) {
