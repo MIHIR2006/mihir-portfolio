@@ -85,6 +85,17 @@
     box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
   }
 
+  .Graph {
+    margin-top: 20px;
+    grid-column-end: span 2;
+    background: black;
+    padding: 2rem;
+    text-align: justify;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+  }
+
   #about .descTechS {
     grid-column-end: span 2;
     width: 100%;

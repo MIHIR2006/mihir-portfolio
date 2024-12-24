@@ -1,5 +1,5 @@
 import React from "react";
-
+import GitHubCalendar from 'react-github-calendar';
 import "./About.css";
 import Skills from "./Skills.js";
 
@@ -88,7 +88,11 @@ const About = (props) => {
             <p className="separatorSkills" />
           </div>
           <Skills />
+
         </div>
+
+                <div className="Graph" style={{margin:'0px auto',color:'white'}}><GitHubCalendar username="MIHIR2006" /></div>
+
       </div>
     </section>
   );
