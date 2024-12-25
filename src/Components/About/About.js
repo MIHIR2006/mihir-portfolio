@@ -1,5 +1,6 @@
 import React from "react";
-import GitHubCalendar from 'react-github-calendar';
+// import GitHubCalendar from 'react-github-calendar';
+import GitGraph from "./Graph.png";
 import "./About.css";
 import Skills from "./Skills.js";
 
@@ -72,27 +73,61 @@ const About = (props) => {
                   <img src="https://skillicons.dev/icons?i=mongodb,express,react,nodejs" />
                 </div>
               </p> */}
-            <div className="TechContainer">
-            <a href="https://www.mongodb.com" target="_blank"><img className="Techs" src="https://skillicons.dev/icons?i=mongodb" alt="Mongodb" /></a>
-            <a href="https://expressjs.com" target="_blank"> <img className="Techs" src="https://skillicons.dev/icons?i=express" alt="Express js" /></a>
-            <a href="https://react.dev" target="_blank"> <img className="Techs" src="https://skillicons.dev/icons?i=react" alt="React js" /></a>
-            <a href="https://nodejs.org/en" target="_blank"> <img className="Techs" src="https://skillicons.dev/icons?i=nodejs" alt="Node js" /></a>
-            </div>
+              <div className="TechContainer">
+                <a href="https://www.mongodb.com" target="_blank">
+                  <img
+                    className="Techs"
+                    src="https://skillicons.dev/icons?i=mongodb"
+                    alt="Mongodb"
+                  />
+                </a>
+                <a href="https://expressjs.com" target="_blank">
+                  {" "}
+                  <img
+                    className="Techs"
+                    src="https://skillicons.dev/icons?i=express"
+                    alt="Express js"
+                  />
+                </a>
+                <a href="https://react.dev" target="_blank">
+                  {" "}
+                  <img
+                    className="Techs"
+                    src="https://skillicons.dev/icons?i=react"
+                    alt="React js"
+                  />
+                </a>
+                <a href="https://nodejs.org/en" target="_blank">
+                  {" "}
+                  <img
+                    className="Techs"
+                    src="https://skillicons.dev/icons?i=nodejs"
+                    alt="Node js"
+                  />
+                </a>
+              </div>
             </div>
           </div>
 
           <div className="title">
             <div className="SkillsMargin">
-            <h3>Skills</h3>
+              <h3>Skills</h3>
             </div>
             <p className="separatorSkills" />
           </div>
           <Skills />
-
         </div>
 
-                <div className="Graph" style={{margin:'0px auto',color:'white'}}><GitHubCalendar username="MIHIR2006" /></div>
+<div className="title" style={{marginTop:"30px"}}>
+<h3>GitHub Contributions</h3>
+<p className="separatorGithub" />
+</div>
 
+        <div className="graph-container">
+          <a href="https://github.com/MIHIR2006 " target="_blank">
+            <img className="GraphImg" src={GitGraph} alt="Graph" />
+          </a>
+        </div>
       </div>
     </section>
   );
