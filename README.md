@@ -1,3 +1,9 @@
+<div>
+      <img src="https://github.com/MIHIR2006/mihir-portfolio/blob/master/public/Portfolio%20Banner.png" alt="Project Banner">
+</div>
+  <br />
+  
+  
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
