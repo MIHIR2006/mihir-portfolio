@@ -8,6 +8,7 @@
 
 ## How to use
 
+
 1. Clone the repo
 ``` bash
 git clone https://github.com/MIHIR2006/mihir-portfolio.git
@@ -23,4 +24,5 @@ npm install
 npm start
 ```
 
+### Give it ⭐
 
